@@ -53,12 +53,12 @@
     "postcss-normalize": "^10.0.1",
     "postcss-preset-env": "^7.0.1",
     "prompts": "^2.4.2",
-    "react": "^19.0.0",
+    "react": "^18.3.0",
     "react-app-polyfill": "^3.0.0",
     "react-chartjs-2": "^5.2.0",
     "react-csv": "^2.2.2",
     "react-dev-utils": "^12.0.1",
-    "react-dom": "^19.0.0",
+    "react-dom": "^18.3.0",
     "react-facebook-login": "^4.1.1",
     "react-github-login": "^1.0.3",
     "react-hook-form": "^7.54.0",
@@ -90,7 +90,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start:json": "json-server --watch db.json --port 5000"
   },
   "proxy": "http://localhost:5000",
@@ -114,7 +114,8 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@babel/plugin-transform-private-property-in-object": "^7.25.9"
+    "@babel/plugin-transform-private-property-in-object": "^7.25.9",
+    "gh-pages": "^6.2.0"
   },
   "jest": {
     "roots": [
@@ -172,5 +173,5 @@
       "react-app"
     ]
   },
-  "homepage": "https://nhanhcmute.github.io/nhanpet"
+  "homepage": "https://nhanhcmute.github.io/petstore/"
 }
